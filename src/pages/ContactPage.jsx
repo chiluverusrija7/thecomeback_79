@@ -119,10 +119,10 @@ export function ContactPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 font-mono text-sm font-bold transition-colors"
               >
-                <span>LinkedIn Network</span>
+                <span>Chiluveru Srija</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
-              <span className="text-[11px] font-mono text-slate-400">Professional Connection</span>
+              <span className="text-[11px] font-mono text-slate-400">LinkedIn Profile</span>
             </div>
           </GlassCard>
 

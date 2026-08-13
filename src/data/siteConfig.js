@@ -12,9 +12,9 @@ export const siteConfig = {
   availabilityStatus: "CSE B.Tech Student @ KL University • Open for Software Engineering & AI Collaborations",
   
   // Contact & Socials
-  email: "srija@example.com",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
+  email: "chiluverusrija07@gmail.com",
+  github: "https://github.com/chiluverusrija7",
+  linkedin: "https://www.linkedin.com/in/chiluveru-srija-b47a903a1/",
   location: "KL University, Dept. of CSE",
   resumePath: "/resume.pdf",
 

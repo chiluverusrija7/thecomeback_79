@@ -9,9 +9,9 @@ export const personalInfo = {
   aboutText2: "I prefer learning by building — taking a concept from theory, implementing it, testing it, and then turning it into something people can interact with.",
   philosophy: "Learn → Build → Test → Improve",
   tagline: "Build. Analyze. Solve.",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  email: "srija@example.com",
+  github: "https://github.com/chiluverusrija7",
+  linkedin: "https://www.linkedin.com/in/chiluveru-srija-b47a903a1/",
+  email: "chiluverusrija07@gmail.com",
   location: "KL University, Dept. of Computer Science",
   status: "CSE B.Tech Student @ KL University"
 };
@@ -19,6 +19,7 @@ export const personalInfo = {
 export const navItems = [
   { label: "Home", href: "/", isImplemented: true },
   { label: "About", href: "/#about", isImplemented: true },
+  { label: "Education", href: "/#education", isImplemented: true },
   { label: "Skills", href: "/#skills", isImplemented: true },
   { label: "Projects", href: "/projects", isImplemented: true },
   { label: "Certifications", href: "/certifications", isImplemented: true },
