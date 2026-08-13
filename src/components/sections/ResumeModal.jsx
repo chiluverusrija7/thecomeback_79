@@ -31,14 +31,16 @@ export function ResumeModal({ isOpen, onClose }) {
             <p className="text-xs font-mono text-cyan-400 mt-0.5">{personalInfo.role} • {personalInfo.institution}</p>
             <p className="text-xs text-slate-400 mt-1">Open for Software Engineering & AI Collaborations</p>
           </div>
-          <Button
-            variant="primary"
-            size="sm"
-            leftIcon={Download}
-            onClick={handleDownload}
-          >
-            {downloadSuccess ? 'Downloaded!' : 'Download Resume'}
-          </Button>
+          <a href="/resume.pdf" download="Srija_Ch_Resume.pdf">
+            <Button
+              variant="primary"
+              size="sm"
+              leftIcon={Download}
+              onClick={handleDownload}
+            >
+              {downloadSuccess ? 'Downloaded!' : 'Download Resume'}
+            </Button>
+          </a>
         </div>
 
         {downloadSuccess && (

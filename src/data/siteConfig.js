@@ -16,7 +16,7 @@ export const siteConfig = {
   github: "https://github.com",
   linkedin: "https://linkedin.com",
   location: "KL University, Dept. of CSE",
-  resumePath: "/resume_sample.pdf",
+  resumePath: "/resume.pdf",
 
   // Theme configuration
   accentColor: "cyan",

@@ -42,14 +42,15 @@ export function FinalCTASection({ onOpenResume }) {
               </Button>
             </Link>
 
-            <Button
-              variant="outline"
-              size="lg"
-              leftIcon={FileText}
-              onClick={onOpenResume}
-            >
-              Download Resume
-            </Button>
+            <a href="/resume.pdf" download="Srija_Ch_Resume.pdf">
+              <Button
+                variant="outline"
+                size="lg"
+                leftIcon={FileText}
+              >
+                Download Resume
+              </Button>
+            </a>
           </div>
 
         </div>

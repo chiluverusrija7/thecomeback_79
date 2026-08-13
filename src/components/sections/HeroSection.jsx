@@ -58,14 +58,15 @@ export function HeroSection({ onOpenResume, onOpenProjectsPreview, onOpenCommand
               >
                 Explore My Projects
               </Button>
-              <Button
-                variant="secondary"
-                size="lg"
-                leftIcon={FileDown}
-                onClick={onOpenResume}
-              >
-                Download Resume
-              </Button>
+              <a href="/resume.pdf" download="Srija_Ch_Resume.pdf">
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  leftIcon={FileDown}
+                >
+                  Download Resume
+                </Button>
+              </a>
             </div>
 
             {/* Quick Command Palette Tip */}
